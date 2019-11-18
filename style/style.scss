@@ -217,6 +217,7 @@ body{
 				border: 1px solid var(--borderSapn);
 
 		
+				
 				.imagen-main{
 					width: 100%;
 					height: 100%;
@@ -224,9 +225,16 @@ body{
 					background-image: url(../img/apartment-2094666_1920.jpg);
 					background-repeat: no-repeat;
 					background-size: cover;
-					display: flex;
-					justify-content: flex-end;
-					align-items: flex-end;
+					
+
+
+					.conten-cuadrado{
+						width: 100%;
+						height: 100%;
+						display: flex;
+						justify-content: flex-end;
+						/* align-items: flex-end; */
+						margin-top: -36px;
 
 					.cuadrado{
 						position: absolute;
@@ -256,6 +264,36 @@ body{
 							bottom: 0;
 						}
 					}
+					}
+
+					.content-corazo{
+						width: 100%;
+						height: 100%;
+						height: 100%;
+						display: flex;
+						justify-content: flex-end;
+
+						ul {
+							list-style: none;
+							display: flex;
+    						justify-content: flex-end;
+
+							li{
+								display: inline-block;
+							}
+						}
+					}
+					.corazon{
+
+						
+						width: 20px;
+						height: 20px;
+						color: var(--BotonColor);
+						cursor: pointer;
+					right: 10px;
+					}
+
+				
 				}
 				.description-card{
 					width: 100%;
@@ -550,9 +588,7 @@ body{
 
 	/* Basic */
 
-		body {
-			min-width: 360px;
-		}
+	
 
 		.resultados-search .contend-card {
 			display: grid;
@@ -616,82 +652,77 @@ body{
 
 }
 
-@media screen and (max-width: 568px) {
-
-	/* Basic */
-
-		body {
-			min-width: 220px;
-		}
-
-		.resultados-search .contend-card {
-			display: grid;
-			grid-template-columns: repeat(1, 100%);
-			grid-template-rows: auto;
-			
-		}
-
-		.resultados-search .contend-card .card-main {
-			display: grid;
-			grid-template-rows: 55% 15% 15% 15%;
-		}
-		.resultados-search .contend-card .card-main .description-card {
-			width: 100%;
-			height: 100%;
-			background: #FFF;
-			display: grid;
-			grid-template-rows: 40% 30% 30%;
-		}
-		.resultados-search .contend-card .card-main {
-			width: 100%;
-			height: 424px;
-		}
-
-		.resultados-search .contend-card .card-main .description-card .titulo-main {
-			width: 100%;
-			height: 100%;
-			font-size: 8px;
-		}
-
-		.resultados-search .contend-card .card-main .description-card .subtitulo {
-			width: 100%;
-			height: 100%;
-			font-size: 13px;
-		}
-		.resultados-search .contend-card .card-main .description-card .footer-titulo {
-			width: 100%;
-			height: 100%;
-			font-size: 13px;
-		}
+@media screen and (max-width: 740px) {
 
 
-		.mostrar-modal .mostrar-container-modal {
-			border-radius: 10px;
-			position: fixed;
-			width: 100%;
-			height: 615px;
-			overflow-y: scroll;
-		}
 
-		.mostrar-container-modal .form-login .centrar-boton .button {
-			cursor: pointer;
-			font-size: 16px;
-		}
+	.resultados-search .contend-card {
+		display: grid;
+		grid-template-columns: repeat(2, 50%);
+		grid-template-rows: auto;
+		
+	}
 
-		.mostrar-modal .mostrar-container-modal .checkbox label {
-			
-			font-size: 18px;
-		}
+	.resultados-search .contend-card .card-main {
+		display: grid;
+		grid-template-rows: 55% 15% 15% 15%;
+	}
+	.resultados-search .contend-card .card-main .description-card {
+		width: 100%;
+		height: 100%;
+		background: #FFF;
+		display: grid;
+		grid-template-rows: 40% 30% 30%;
+	}
+	.resultados-search .contend-card .card-main {
+		width: 100%;
+		height: 424px;
+	}
 
+	.resultados-search .contend-card .card-main .description-card .titulo-main {
+		width: 100%;
+		height: 100%;
+		font-size: 8px;
+	}
+
+	.resultados-search .contend-card .card-main .description-card .subtitulo {
+		width: 100%;
+		height: 100%;
+		font-size: 13px;
+	}
+	.resultados-search .contend-card .card-main .description-card .footer-titulo {
+		width: 100%;
+		height: 100%;
+		font-size: 13px;
+	}
+
+
+	.mostrar-modal .mostrar-container-modal {
+		border-radius: 10px;
+		position: fixed;
+		width: 100%;
+		height: 615px;
+		overflow-y: scroll;
+	}
+
+	.mostrar-container-modal .form-login .centrar-boton .button {
+		cursor: pointer;
+		font-size: 16px;
+	}
+
+	.mostrar-modal .mostrar-container-modal .checkbox label {
+		
+		font-size: 18px;
+	}
 }
+
+
 
 @media screen and (max-width: 768px) {
 
 	/* Basic */
 
-		body {
-			min-width: 1024px;
-		}
+		
 
 		.resultados-search .contend-card {
 			display: grid;
@@ -756,30 +787,9 @@ body{
 /* Responsive */
 
 
-@media screen and (max-width: 1447px) {
-	body {
-					min-width: 950px;
-				}
-					#header h1 {
-					font-size: 3.1em;
-			}
-			}
-	
-	@media screen and (max-width: 1287px) {
-	body {
-					min-width: 950px;
-				}
-					#header h1 {
-					font-size: 3.1em;
-			}
-			}
-	
-	
+
 	@media screen and (max-width: 1087px) {
-	body {
-					min-width: 1320px;
-	}
-	
+
 		#header h1 {
 					font-size: 3.1em;
 			}
@@ -848,10 +858,7 @@ body{
 
 	@media screen and (max-width: 375px) {
 			/* Basic */
-				body {
-					min-width: 812px;
-					
-				}
+			
 				body, input, select, textarea {
 					font-size: 15pt;
 				}
@@ -919,9 +926,7 @@ body{
 	}
 	@media screen and (max-width: 320px) {
 			/* Basic */
-				body {
-					min-width: 568px;
-				}
+				
 				body, input, select, textarea {
 					font-size: 5pt;
 				}
