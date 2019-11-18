@@ -158,7 +158,8 @@ body {
           height: 100%;
           height: 100%;
           display: flex;
-          justify-content: flex-end; }
+          justify-content: flex-end;
+          font-size: 23px; }
           .resultados-search .contend-card .card-main .imagen-main .content-corazo ul {
             list-style: none;
             display: flex;
@@ -166,6 +167,7 @@ body {
             .resultados-search .contend-card .card-main .imagen-main .content-corazo ul li {
               display: inline-block; }
         .resultados-search .contend-card .card-main .imagen-main .corazon {
+          font-size: 24px;
           width: 20px;
           height: 20px;
           color: var(--BotonColor);
@@ -330,6 +332,8 @@ body {
             .resultados-search .contend-card .card-main .boton-contacto .checket input:checked + label span.box:after {
               height: 8px;
               transform: rotate(-45deg) translateY(10px) translateX(-4px) scale(1); }
+    .resultados-search .contend-card .card-main:hover {
+      box-shadow: 2px 2px 5px rgba(153, 153, 153, 0.486); }
 
 /*MODAL*/
 .mostrar-modal {
