@@ -1586,10 +1586,85 @@ body{
 	/* iPhone 6+, 7+, 8+ ----------- */
 	@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
 	/* Styles */
+	
 	}
 	
 	@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
 	/* Styles */
+		/* Styles */
+		body, input, select, textarea {
+			font-size: 16pt;
+		}
+	
+		.resultados-search {
+			
+			padding: 10px;
+		}
+		
+		.resultados-search .contend-card {
+			display: grid;
+			grid-template-columns: repeat(2, auto);
+			grid-template-rows: auto;
+			
+		}
+	
+		.resultados-search .contend-card .card-main {
+			display: grid;
+			grid-template-rows: 55% 15% 15% 15%;
+		}
+		.resultados-search .contend-card .card-main .description-card {
+			width: 100%;
+			height: 100%;
+			background: #FFF;
+			display: grid;
+			grid-template-rows: 40% 30% 30%;
+		}
+		.resultados-search .contend-card .card-main {
+			width: 100%;
+			height: 424px;
+		}
+	
+		.resultados-search .contend-card .card-main .description-card .titulo-main {
+			width: 100%;
+			height: 100%;
+			font-size: 8px;
+	
+			h1 {
+				margin-left: 15px;
+			}
+		}
+	
+		.resultados-search .contend-card .card-main .description-card .subtitulo {
+			width: 100%;
+			height: 100%;
+			font-size: 13px;
+	
+			
+		}
+		.resultados-search .contend-card .card-main .description-card .footer-titulo {
+			width: 100%;
+			height: 100%;
+			font-size: 13px;
+		}
+	
+	
+		.mostrar-modal .mostrar-container-modal {
+			border-radius: 10px;
+			position: fixed;
+			width: 75%;
+			height: 66%;
+			overflow-y: scroll;
+		}
+	
+		.mostrar-container-modal .form-login .centrar-boton .button {
+			cursor: pointer;
+			font-size: 16px;
+		}
+	
+		.mostrar-modal .mostrar-container-modal .checkbox label {
+			
+			font-size: 18px;
+		}
 	}
 	
 	/* iPhone X ----------- */
